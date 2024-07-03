@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: antiquewhite;
+}
+
+#PontosTuristicos2 img{
+    margin-left: 23px;
+    height: 350px;
+    width: 500px;
+}
+
+.Pontos{
+    padding: 3%;
+}
+.Pontos h3 {
+    font-size: 30px;
+    font-family: system-ui;
+    background-color: pink;
+    margin-bottom: 20px;
+}
+
+header img{
+    height: 150px;
+    width: 250px;
+}
+header h1 {
+    font-size: 40px;
+}
+
+#Header{
+    display: inline;
+}
+
