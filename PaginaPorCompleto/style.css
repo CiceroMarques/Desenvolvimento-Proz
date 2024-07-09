@@ -8,15 +8,20 @@ main {
     background-color: antiquewhite;
 }
 
-#PontosTuristicos2 img{
+#PontosTuristicos img{
     margin-left: 23px;
     height: 350px;
     width: 500px;
 }
+#PontosTuristicos p {
+    margin-left: 30px;
+}
 
 .Pontos{
-    padding: 3%;
+    padding: 2%
+
 }
+
 .Pontos h3 {
     font-size: 30px;
     font-family: system-ui;
@@ -24,15 +29,56 @@ main {
     margin-bottom: 20px;
 }
 
-header img{
-    height: 150px;
-    width: 250px;
+#Informacoes p{
+    margin-left: 20px;
+    margin-right: 300px;
+    margin-bottom: 15px;
+    line-height: 1.2;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
-header h1 {
+
+#Informacoes h3 {
+    margin-left: 20px;
+    margin-right: 300px;
+    margin-bottom: 15px;
+    line-height: 1.2;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+}
+
+#link a { 
+    color: red;
+}
+
+header img{
+    height: 175px;
+    width: 175px;
+}
+header p {
+    font-weight: bold;
     font-size: 40px;
 }
 
-#Header{
-    display: inline;
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    padding: 10px 1%;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+h1 {
+    padding: 3%;
+    font-size: 35px;
+}
+
+footer img {
+    height: 175px;
+    width: 175px;
+}
