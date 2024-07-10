@@ -12,6 +12,7 @@ main {
     margin-left: 23px;
     height: 350px;
     width: 500px;
+    margin-bottom: 15px;
 }
 #PontosTuristicos p {
     margin-left: 30px;
@@ -71,6 +72,7 @@ header {
     display: flex;
     flex-direction: column;
     width: 100%;
+    background-image: linear-gradient(to right, rgb(119, 121, 243), rgb(240, 235, 236));
 }
 
 h1 {
@@ -82,3 +84,4 @@ footer img {
     height: 175px;
     width: 175px;
 }
+
