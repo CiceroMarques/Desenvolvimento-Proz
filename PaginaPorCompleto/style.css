@@ -85,3 +85,19 @@ footer img {
     width: 175px;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: linear-gradient(to left, rgb(119, 121, 243), rgb(240, 235, 236));
+}
+
+footer p {
+    color: darkblue;
+    font-size: large;
+    margin-left: 35px;
+}   
+
+footer ul {
+    margin-left: 60px;
+}
